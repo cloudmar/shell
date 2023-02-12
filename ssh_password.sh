@@ -8,6 +8,6 @@ read name
 
 adduser $name
 
-passwd $name
+usermod -aG sudo $name
 
 echo "you can now login using your name and password"
